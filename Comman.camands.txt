@@ -1,0 +1,24 @@
+git init        # Create a Git repository
+git status      # Check current changes
+git add .       # Stage all changes
+git commit -m "Added login feature"   # Save changes
+git log         # View commit history
+git branch      # View branches
+git checkout    # Switch branches
+
+What is GitHub?
+
+GitHub is a cloud platform where you can store Git repositories online.
+
+It allows you to:
+
+Back up your code.
+Share projects with others.
+Collaborate with teams.
+Review code using Pull Requests.
+Showcase your projects to recruiters.
+
+Think of it like this:
+
+Git = the tool that manages your project history.
+GitHub = the website where you store and share your Git projects.
