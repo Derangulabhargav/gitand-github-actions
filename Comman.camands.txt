@@ -22,3 +22,76 @@ Think of it like this:
 
 Git = the tool that manages your project history.
 GitHub = the website where you store and share your Git projects.
+
+
+
+| Git                                 | GitHub                         |
+| ----------------------------------- | ------------------------------ |
+| Software installed on your computer | Cloud-based hosting service    |
+| Tracks changes in files             | Stores Git repositories online |
+| Works offline                       | Mostly used online             |
+| Created by Linus Torvalds           | Owned by Microsoft             |
+
+
+
+
+
+
+| Command                          | Purpose                              |
+| -------------------------------- | ------------------------------------ |
+| `git --version`                  | Check Git installation               |
+| `git config --global user.name`  | Set username                         |
+| `git config --global user.email` | Set email                            |
+| `git config --list`              | View configuration                   |
+| `git init`                       | Initialize a repository              |
+| `git status`                     | Show repository status               |
+| `git add .`                      | Stage all changes                    |
+| `git add <file>`                 | Stage a specific file                |
+| `git commit -m "message"`        | Save staged changes                  |
+| `git log`                        | View commit history                  |
+| `git log --oneline`              | Compact commit history               |
+| `git diff`                       | Show unstaged changes                |
+| `git diff --staged`              | Show staged changes                  |
+| `git branch`                     | List branches                        |
+| `git branch <name>`              | Create a branch                      |
+| `git switch <name>`              | Switch branches                      |
+| `git switch -c <name>`           | Create and switch to a branch        |
+| `git merge <branch>`             | Merge a branch                       |
+| `git branch -d <name>`           | Delete a branch                      |
+| `git remote add origin <url>    | Add a GitHub remote                  |
+| `git remote -v`                  | View remotes                         |
+| `git push`                       | Upload commits                       |
+| `git pull`                       | Download and merge changes           |
+| `git fetch`                      | Download changes only                |
+| `git clone <url>`                | Copy a repository                    |
+| `git restore <file>`             | Discard local changes                |
+| `git restore --staged <file>`    | Unstage a file                       |
+| `git reset --soft HEAD~1`        | Undo last commit, keep changes       |
+| `git reset --hard HEAD~1`        | Undo last commit and discard changes |
+
+
+
+
+
+
+
+
+
+
+
+
+For interview preparation, it's worth practicing these commands in this order
+
+git init
+git status
+git add
+git commit
+git branch
+git switch
+git merge
+git remote add
+git push
+git pull
+git clone
+
+These are the commands you'll use most often in real-world software development and Selenium automation projects.
